@@ -16,7 +16,7 @@ type Options struct {
 }
 
 var (
-	DefaultOptions = Options{PollIntervalSeconds: 5, BatchSize: 10000}
+	DefaultOptions = Options{PollIntervalSeconds: 5, BatchSize: 100000}
 )
 
 type Connection struct {
